@@ -1,0 +1,95 @@
+# Rime user dictionary
+#@/db_name	wubi.userdb
+#@/db_type	userdb
+#@/rime_version	1.5.3
+#@/tick	78
+#@/user_id	0269392f-d110-4e78-a063-dc4dd7142d99
+c 	以	c=1 d=0.826959 t=78
+dd 	大	c=1 d=0.946485 t=78
+eh 	用	c=1 d=0.995012 t=78
+fg 	二	c=1 d=0.918512 t=78
+ftx 	老	c=1 d=0.810584 t=78
+gg 	五	c=2 d=1.76535 t=78
+ggg 	王	c=1 d=0.891366 t=78
+i 	不	c=1 d=1 t=78
+j 	是	c=1 d=0.932394 t=78
+kcg 	吗	c=1 d=0.918512 t=78
+knx 	呢	c=1 d=1 t=78
+o 	为	c=2 d=1.89942 t=78
+ok 	燥	c=1 d=0.965605 t=78
+pgh 	定	c=1 d=0.99005 t=78
+ptcg 	牢骚	c=1 d=0.97531 t=78
+q 	我	c=1 d=0.927743 t=78
+rci 	反	c=1 d=0.856415 t=78
+rp 	近	c=1 d=0.822835 t=78
+sb 	李	c=1 d=0.941765 t=78
+sj 	查	c=1 d=0.860708 t=78
+tc 	么	c=1 d=0.985112 t=78
+thnn 	自己	c=1 d=0.97531 t=78
+tp 	管	c=1 d=0.878095 t=78
+tt 	笔	c=2 d=1.7742 t=78
+v 	发	c=2 d=1.74831 t=78
+vb 	好	c=3 d=2.78157 t=78
+vbkr 	好听	c=1 d=0.985112 t=78
+wa 	代	c=1 d=0.923116 t=78
+wfc 	会	c=1 d=0.970446 t=78
+wfnh 	伟	c=1 d=0.951229 t=78
+wftc 	什么	c=2 d=1.90894 t=78
+wq 	你	c=8 d=7.14493 t=78
+wqin 	您	c=2 d=1.84522 t=78
+yr 	义	c=1 d=1 t=78
+yyr 	议	c=1 d=0.995012 t=78
+encddwf 	大伟	c=0 d=0.0951229 t=78
+encehkn 	用呢	c=0 d=0.1 t=78
+encfgwa 	二代	c=0 d=0.0923116 t=78
+encggtt 	五笔	c=0 d=0.0904837 t=78
+encntft 	发老	c=0 d=0.0810584 t=78
+encntwq 	发你	c=0 d=0.0946485 t=78
+encnwwq 	发你你	c=0 d=0.0951229 t=78
+encowtc 	为什么	c=0 d=0.0995012 t=78
+encowtd 	为什么不	c=0 d=0.1 t=78
+encowti 	为什么不	c=0 d=0.1 t=78
+encpgyy 	定议	c=0 d=0.0995012 t=78
+encqj 	我是	c=0 d=0.0932394 t=78
+encqjg 	我是	c=0 d=0.0932394 t=78
+encrcsj 	反查	c=0 d=0.0860708 t=78
+encrpc 	近以	c=1 d=0.839457 t=78
+encrpny 	近以	c=1 d=0.843665 t=78
+encrsgg 	反查五	c=0 d=0.0865022 t=78
+encrsgt 	反查五笔	c=0 d=0.0869358 t=78
+encsbdd 	李大	c=0 d=0.0946485 t=78
+encsdwf 	李大伟	c=0 d=0.0951229 t=78
+encsgtt 	查五笔	c=0 d=0.0869358 t=78
+encsjgg 	查五	c=0 d=0.0865022 t=78
+enctcvb 	么好	c=0 d=0.099005 t=78
+enctrj 	我是	c=0 d=0.0932394 t=78
+enctrjg 	我是	c=0 d=0.0932394 t=78
+enctveh 	么好用	c=0 d=0.0995012 t=78
+enctvek 	么好用呢	c=0 d=0.1 t=78
+encvbeh 	好用	c=0 d=0.0995012 t=78
+encvbkc 	好吗	c=0 d=0.0918512 t=78
+encvekn 	好用呢	c=0 d=0.1 t=78
+encvft 	发老	c=0 d=0.0810584 t=78
+encvwq 	发你	c=0 d=0.0946485 t=78
+encvwwq 	发你你	c=0 d=0.0951229 t=78
+encwnft 	你发老	c=0 d=0.0810584 t=78
+encwnwq 	你发你	c=0 d=0.0946485 t=78
+encwnww 	你发你你	c=0 d=0.0951229 t=78
+encwqnt 	你发	c=0 d=0.0941765 t=78
+encwqv 	你发	c=0 d=0.0941765 t=78
+encwqvb 	你好	c=0 d=0.0970446 t=78
+encwqvb 	您好	c=0 d=0.0913931 t=78
+encwqwq 	你你	c=0 d=0.0951229 t=78
+encwtdh 	什么不	c=0 d=0.1 t=78
+encwti 	什么不	c=0 d=0.1 t=78
+encwvft 	你发老	c=0 d=0.0810584 t=78
+encwvkc 	您好吗	c=0 d=0.0918512 t=78
+encwvwq 	你发你	c=0 d=0.0946485 t=78
+encwvww 	你发你你	c=0 d=0.0951229 t=78
+encwwnt 	你你发	c=0 d=0.0941765 t=78
+encwwnw 	你你发你	c=0 d=0.0946485 t=78
+encwwv 	你你发	c=0 d=0.0941765 t=78
+encwwvw 	你你发你	c=0 d=0.0946485 t=78
+encywtc 	为什么	c=0 d=0.0995012 t=78
+encywtd 	为什么不	c=0 d=0.1 t=78
+encywti 	为什么不	c=0 d=0.1 t=78

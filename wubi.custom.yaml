@@ -1,0 +1,11 @@
+#wubi.custom.yaml
+patch:
+  translator/enable_user_dict: true　#關閉用戶詞典和字頻調整
+  app_options/com.apple.Terminal:
+    ascii_mode: true
+  engine/+:
+    translators/+:
+      - lua_translator@date_translator 
+      - lua_translator@time_translator
+
+  

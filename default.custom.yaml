@@ -1,0 +1,160 @@
+# default.custom.yaml
+patch:
+  app_options/com.apple.Terminal:
+    ascii_mode: true
+  switches:
+    - name: ascii_mode                   # 0 中文，1 英文
+      reset: 0
+      states: ["中文", "英文"]
+    - name: full_shape                   # 全角/半角符号开关
+      states: ["半角", "全角"]
+    - name: show_emoji                   # Emoji 开关
+      reset: 1
+      states: [ " ️️\uFE0E", " ️️\uFE0F" ]
+    - name: zh_simp                      # (※1) 繁简转换
+      reset: 1
+      states: ["漢字", "汉字"]
+    - options: ["utf8", "gbk", "gb2312"] # (※2)字符集选单
+      reset: 0                           # 默认 UTF8
+      states:
+        - UTF-8
+        - GBK
+        - GB2312      
+  ascii_composer/good_old_caps_lock: true
+  # luna_pinyin.custom.yaml
+  menu/page_size: 9
+  schema_list:
+    #- schema: wubi98
+    - schema: wubi
+    - schema: luna_pinyin
+    #- schema: pinyin_simp #五笔反查简体中文字典，引入一次才能编译，编译后可以注释
+    #- schema: cangjie5
+  switcher:
+    caption: 〔切换〕
+    hotkeys:
+      - Control+grave
+      - Control+Shift+grave
+      - F2  #配置F2为方案菜单快捷键
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
+    fold_options: true
+    abbreviate_options: true
+    option_list_separator: '／'
+  punctuator:
+    full_shape:
+      ' ' : { commit: '　' }
+      ',' : { commit: ， }
+      '.' : { commit: 。 }
+      '<' : [ 《, 〈, «, ‹ ]
+      '>' : [ 》, 〉, », › ]
+      '/' : [ ／, ÷ ]
+      '?' : { commit: ？ }
+      ';' : { commit: ； }
+      ':' : { commit: ： }
+      '''' : { pair: [ '‘', '’' ] }
+      '"' : { pair: [ '“', '”' ] }
+      '\' : [ 、, ＼ ]
+      '|' : [ ·, ｜, '§', '¦' ]
+      '`' : ｀
+      '~' : ～
+      '!' : { commit: ！ }
+      '@' : [ ＠, ☯ ]
+      '#' : [ ＃, ⌘ ]
+      '%' : [ ％, '°', '℃' ]
+      '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+      '^' : { commit: …… }
+      '&' : ＆
+      '*' : [ ＊, ·, ・, ×, ※, ❂ ]
+      '(' : （
+      ')' : ）
+      '-' : －
+      '_' : ——
+      '+' : ＋
+      '=' : ＝
+      '[' : [ 「, 【, 〔, ［ ]
+      ']' : [ 」, 】, 〕, ］ ]
+      '{' : [ 『, 〖, ｛ ]
+      '}' : [ 』, 〗, ｝ ]
+    half_shape:
+      ',' : { commit: ， }
+      '.' : { commit: 。 }
+      '<' : [ 《, 〈, «, ‹ ]
+      '>' : [ 》, 〉, », › ]
+      '/' : [ 、, '/', ／, ÷ ]
+      '?' : { commit: ？ }
+      ';' : { commit: ； }
+      ':' : { commit: ： }
+      '''' : { pair: [ '‘', '’' ] }
+      '"' : { pair: [ '“', '”' ] }
+      '\' : [ 、, '\', ＼ ]
+      '|' : [ ·, '|', ｜, '§', '¦' ]
+      '`' : '`'
+      '~' : [ '~', ～ ]
+      '!' : { commit: ！ }
+      '@' : '@'
+      '#' : '#'
+      '%' : [ '%', ％, '°', '℃' ]
+      '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+      '^' : { commit: …… }
+      '&' : '&'
+      '*' : [ '*', ＊, ·, ・, ×, ※, ❂ ]
+      '(' : （
+      ')' : ）
+      '-' : '-'
+      '_' : ——
+      '+' : '+'
+      '=' : '='
+      '[' : [ 「, 【, 〔, ［ ]
+      ']' : [ 」, 】, 〕,  ］ ]
+      '{' : [ 『, 〖, ｛ ]
+      '}' : [ 』, 〗, ｝ ]
+
+  key_binder:
+    bindings:
+      # Emacs style
+      - { when: composing, accept: Control+p, send: Up }
+      - { when: composing, accept: Control+n, send: Down }
+      - { when: composing, accept: Control+b, send: Left }
+      - { when: composing, accept: Control+f, send: Right }
+      - { when: composing, accept: Control+a, send: Home }
+      - { when: composing, accept: Control+e, send: End }
+      - { when: composing, accept: Control+d, send: Delete }
+      - { when: composing, accept: Control+k, send: Shift+Delete }
+      - { when: composing, accept: Control+h, send: BackSpace }
+      - { when: composing, accept: Control+g, send: Escape }
+      - { when: composing, accept: Control+bracketleft, send: Escape }
+      - { when: composing, accept: Alt+v, send: Page_Up }
+      - { when: composing, accept: Control+v, send: Page_Down }
+      # paging keys
+      - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
+      - { when: composing, accept: Shift+Tab, send: Page_Up }
+      - { when: composing, accept: Tab, send: Page_Down }
+      - { when: has_menu, accept: minus, send: Page_Up }
+      - { when: has_menu, accept: equal, send: Page_Down }
+      - { when: paging, accept: comma, send: Page_Up }
+      - { when: has_menu, accept: period, send: period }
+      - { when: has_menu, accept: semicolon, send: 2 }
+      - { when: has_menu, accept: apostrophe, send: 3 }
+
+      # hotkey switch
+      - { when: always, accept: Control+Shift+1, select: .next }
+      - { when: always, accept: Control+Shift+2, toggle: ascii_mode }
+      - { when: always, accept: Control+Shift+3, toggle: full_shape }
+      - { when: always, accept: Control+Shift+4, toggle: simplification }
+      - { when: always, accept: Control+Shift+5, toggle: extended_charset }
+      - { when: always, accept: Control+Shift+exclam, select: .next }
+      - { when: always, accept: Control+Shift+at, toggle: ascii_mode }
+      - { when: always, accept: Control+Shift+numbersign, toggle: full_shape }
+      - { when: always, accept: Control+Shift+dollar, toggle: simplification }
+      - { when: always, accept: Control+Shift+percent, toggle: extended_charset }
+      - { when: always, accept: Shift+space, toggle: full_shape }
+      - { when: always, accept: Control+period, toggle: ascii_punct }
+
+  recognizer:
+    patterns:
+      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"

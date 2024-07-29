@@ -1,0 +1,41 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.5.3
+#@/tick	40
+#@/user_id	0269392f-d110-4e78-a063-dc4dd7142d99
+an 	安	c=3 d=2.76576 t=40
+an zhuang 	安裝	c=3 d=2.62797 t=40
+can kao 	參考	c=1 d=0.965605 t=40
+cha kan 	查看	c=1 d=0.913931 t=40
+cheng du 	程度	c=2 d=1.93124 t=40
+cong 	從	c=1 d=0.955997 t=40
+de 	的	c=1 d=0.869358 t=40
+fa 	法	c=1 d=0.843665 t=40
+fei chang 	非常	c=0 d=0.0843665 t=40
+huan jing 	環境	c=1 d=0.878095 t=40
+ji qi 	機器	c=1 d=0.932394 t=40
+ji shi ben 	記事本	c=1 d=0.951229 t=40
+ji shu 	技術	c=1 d=0.852144 t=40
+jiao ben 	腳本	c=1 d=0.873716 t=40
+kan 	看	c=1 d=1 t=40
+luo hu 	落戶	c=1 d=0.99005 t=40
+luo wen gang 	螺紋鋼	c=1 d=0.995012 t=40
+ni hao 	你好	c=1 d=1 t=40
+ren 	人	c=0 d=0.0843665 t=40
+ren fei chang 	人非常	c=1 d=0.847894 t=40
+shi 	是	c=1 d=0.97531 t=40
+shi jian 	時間	c=1 d=0.927743 t=40
+shu ru 	輸入	c=1 d=0.839457 t=40
+shu xu guan 	鼠鬚管	c=1 d=1 t=40
+tong 	同	c=1 d=0.980199 t=40
+wo 	我	c=1 d=0.865022 t=40
+xiu 	修	c=1 d=0.995012 t=40
+xu ke 	許可	c=1 d=0.904837 t=40
+ya tiao fa 	壓條法	c=1 d=0.900325 t=40
+yan 	研	c=2 d=1.75654 t=40
+yi 	意	c=1 d=0.985112 t=40
+yu yan 	預言	c=1 d=0.856415 t=40
+zheng 	證	c=1 d=0.909373 t=40
+zhi 	之	c=1 d=0.923116 t=40
+zhuang 	裝	c=2 d=1.83785 t=40

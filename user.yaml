@@ -1,0 +1,18 @@
+var:
+  last_build_time: 1722221824
+  option:
+    ascii_punct: false
+    extended_charset: false
+    full_shape: false
+    simplification: true
+  previously_selected_schema: wubi
+  schema_access_time:
+    cangjie5: 1701945259
+    emoji: 1584884122
+    ipa_xsampa: 1584883791
+    luna_pinyin: 1722246275
+    luna_pinyin_simp: 1702003235
+    pinyin_simp: 1702004136
+    stroke: 1701826880
+    wubi: 1722246277
+    wubi98: 1701943507
