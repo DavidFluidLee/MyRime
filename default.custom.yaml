@@ -26,7 +26,7 @@ patch:
   schema_list:
     #- schema: wubi98
     - schema: wubi
-    - schema: luna_pinyin
+    #- schema: luna_pinyin
     #- schema: pinyin_simp #五笔反查简体中文字典，引入一次才能编译，编译后可以注释
     #- schema: cangjie5
   switcher:

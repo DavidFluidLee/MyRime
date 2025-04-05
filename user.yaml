@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1722221824
+  last_build_time: 1743054646
   option:
     ascii_punct: false
     extended_charset: false
@@ -10,9 +10,9 @@ var:
     cangjie5: 1701945259
     emoji: 1584884122
     ipa_xsampa: 1584883791
-    luna_pinyin: 1722246275
+    luna_pinyin: 1743657917
     luna_pinyin_simp: 1702003235
     pinyin_simp: 1702004136
     stroke: 1701826880
-    wubi: 1722246277
+    wubi: 1743657921
     wubi98: 1701943507

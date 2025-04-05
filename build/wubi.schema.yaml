@@ -2,8 +2,8 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     default: 0
-    default.custom: 1722221788
-    wubi.custom: 1722219712
+    default.custom: 1725420507
+    wubi.custom: 1722269186
     wubi.schema: 1702305712
 app_options:
   com.apple.Terminal:
